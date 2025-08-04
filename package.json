@@ -1,0 +1,15 @@
+{
+  "name": "studypaw-server",
+  "version": "1.0.0",
+  "description": "StudyPaw Google OAuth example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "express-session": "^1.17.3"
+  }
+}
