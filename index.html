@@ -10,25 +10,30 @@
     object-fit: cover; /* use "contain" if you don't want cropping */
     display: block;
   }
-  .google-signin-btn {
+  .login-btn {
     position: absolute;
     top: 30px;
     right: 30px;
     z-index: 10;
+    padding: 15px 40px;
+    background: #4285f4;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
   }
-  .google-signin-btn img {
-    width: 1000px;
-    height: auto;
+  .login-btn:hover {
+    background: #357ae8;
   }
 </style>
 </head>
 <body>
   <img src="1.png" width="100%" height="100%">
-  
-  <!-- Google Sign-In Button -->
-  <a href="/signin-google" class="google-signin-btn">
-    <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" 
-         alt="Sign in with Google" />
-  </a>
+  <!-- Login Button -->
+  <a href="login.html" class="login-btn">Login</a>
 </body>
 </html>
