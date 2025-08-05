@@ -5,15 +5,15 @@
   <title>StudyPaw - Home</title>
 <style>
 
-  body {
-  background-image: url('1.png');
-  background-size: cover; /* or 'contain' */
-  background-repeat: no-repeat;
-  background-position: center;
+  .full-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* use "contain" if you don't want cropping */
+  display: block;
 }
 </style>
 </head>
 <body>
-
+  <img src="1.png" class="full-image" alt="Full Page Image">
 </body>
 </html>
