@@ -4,17 +4,22 @@
   <meta charset="UTF-8">
   <title>StudyPaw - Home</title>
 <style>
-
   .full-image {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover; /* use "contain" if you don't want cropping */
-  display: block;
-}
-.google-signin-btn {
-  display: block;
-  margin: 30px auto;
-}
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* use "contain" if you don't want cropping */
+    display: block;
+  }
+  .google-signin-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 10;
+  }
+  .google-signin-btn img {
+    width: 250px;
+    height: auto;
+  }
 </style>
 </head>
 <body>
