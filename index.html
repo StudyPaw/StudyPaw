@@ -11,6 +11,7 @@
     display: block;
   }
   .login-btn {
+    <button class="button-signin">Sign in</button>
     position: absolute;
     top: 30px;
     right: 30px;
@@ -27,7 +28,15 @@
     transition: background 0.2s;
   }
   .login-btn:hover {
-    background: #357ae8;
+   .button-signin {
+  background-image: url('button.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px; /* Set to match image */
+  height: 50px;  /* Set to match image */
+  border: none;
+  color: white;  /* Or use transparent text if image includes text */
+}
   }
 </style>
 </head>
