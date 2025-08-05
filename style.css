@@ -118,3 +118,16 @@ body {
   background-size: 140px;
   z-index: 1;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.full-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* use "contain" if you don't want cropping */
+  display: block;
+}
