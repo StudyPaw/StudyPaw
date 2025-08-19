@@ -5,24 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      font-family: sans-serif;
+      color: white;
+    }
+
     body {
-  margin: 0;
-  padding: 0;
-  background-image: url('Study paw.png');
-  background-size: 100% auto; /* Ensures full width is visible */
-    height: auto;
-  min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: scroll;
-  font-family: sans-serif;
-  color: white;
-}
+      background-image: url('Study paw.png');
+      background-size: cover; /* Ensures full coverage */
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: scroll;
+    }
+
+    .content {
+      padding: 50px;
+      min-height: 200vh; /* Makes the page tall enough to scroll */
+      box-sizing: border-box;
+    }
   </style>
+</head>
+<body>
+  <div class="content">
+  </div>
 </body>
 </html>
+
 
 
 
