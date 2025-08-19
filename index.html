@@ -9,19 +9,14 @@
   margin: 0;
   padding: 0;
   background-image: url('Study paw.png');
-  background-size: cover;
+  background-size: 100% auto; /* Ensures full width is visible */
   background-repeat: no-repeat;
-  background-attachment: scroll; /* Changed from fixed to scroll */
-  background-position: center;
-  min-height: 100vh;
+  background-position: top center;
+  background-attachment: scroll;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
   font-family: sans-serif;
   color: white;
-    }
-
-    .content {
-      padding: 50px;
-      min-height: 200vh; /* Makes the page tall enough to scroll */
-    }
+}
   </style>
 </head>
 <body>
